@@ -27,7 +27,7 @@ void main() {
     }
     int[] sorted =  bubble_sort(numbers);  // sort operation จาก def/function
     for(int i = 0; i < size; i++){    // print แต่ละตัวออกมา
-        IO.print(sorted[i] + " ");
+        IO.println(sorted[i] + " ");
     }
 
 
